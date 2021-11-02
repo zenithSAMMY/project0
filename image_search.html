@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Image Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+    <a href="index.html">Google Search</a>
+  </nav>
+    <!-- https://www.google.com/search?q=123&tbm=isch -->
+    <main>
+      <img src="googlelogo_color_272x92dp.png" />
+    <form action="https://www.google.com/search" id="search">
+      <input id="text" autofocus autocomplete="off" type="text" name="q" placeholder="Image Search..."/>
+      <input type="hidden" name="tbm" value="isch" />
+      <div id="buttons">
+      <input type="submit" value="Google Image Search" class="button" />
+    </div>
+    </form>
+  </main>
+  </body>
+</html>

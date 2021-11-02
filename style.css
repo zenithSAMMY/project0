@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 8vh;
+}
+
+nav a {
+  text-decoration: none;
+  color: blue;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+main {
+  width: 100vw;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#text {
+  width: 50vw;
+  height: 5vh;
+  border: black 1px solid;
+  border-radius: 30px;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+#buttons {
+  width: 70vw;
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#buttons .button {
+  width: 10vw;
+  height: 40px;
+  background-color: lightblue;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+}
+
+img {
+  width: 272px;
+  height: 92px;
+  margin: 20px;
+}
+
+#search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  height: 20vh;
+}
+
+#ad_div {
+  width: 100vw;
+  height: 8vh;
+  padding: 20px;
+}
+
+#ad_text {
+  color: red;
+  font-size: 1.5rem;
+}
+
+#ad_search {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 550px 200px;
+      grid-template-columns: 200px 550px 200px;
+  padding: 20px;
+  row-gap: 10px;
+}
+
+#ad_bar {
+  border: 1px black solid;
+  width: 500px;
+  height: 50px;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+#button {
+  width: 250px;
+  height: 40px;
+  background-color: blue;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

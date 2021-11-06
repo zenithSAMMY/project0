@@ -65,7 +65,7 @@ main {
 }
 
 #buttons .button {
-  width: 10vw;
+  width: 250px;
   height: 40px;
   background-color: lightblue;
   margin: 10px;
